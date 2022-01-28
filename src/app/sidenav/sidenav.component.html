@@ -1,0 +1,52 @@
+<!-- <p>sidenav works!</p> -->
+
+<main>
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+        <a routerLink="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          <span class="fs-4">Dashboard</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a routerLink="/loan" class="nav-link " >
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
+              Apply loan
+            </a>
+          </li>
+          <li>
+            <a routerLink="/limit" class="nav-link text-white">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
+              Check Loan limits
+            </a>
+          </li>
+          <li>
+            <a routerLink="/pay" class="nav-link text-white">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+            Pay Loan
+            </a>
+          </li>
+          <li>
+            <a routerLink="/bal" class="nav-link text-white">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+              Check Loan Balance
+            </a>
+          </li>
+          <li>
+            <a routerLink="/rep" class="nav-link text-white">
+              <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+              Reports
+            </a>
+          </li>
+        </ul>
+        <hr>
+        <div class="dropdown">
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none " id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            
+            <strong>{{username}}</strong>
+          </a>
+          
+        </div>
+      </div>
+</main>
+

@@ -32,3 +32,8 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+body{
+  margin: 0;
+  width: 100%;
+  background-color: tomato;
+}

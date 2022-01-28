@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-auth"
+    }
+  },
+  "defaultProject": "angular-auth",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -12,7 +12,15 @@
         </li>
       </ul>
 
-      <ul class="navbar-nav me-auto mb-2 mb-md-0" *ngIf="authenticated">
+     
+      <ul class="navbar-nav me-auto mb-2 mb-md-0 dsp" *ngIf="authenticated">
+        <li>
+         
+          <select class="select-lang" name="lan" name="status" >
+            <option value="English">ENGLISH</option>
+            <option value="French">FRENCH</option>
+        </select>
+        </li>
         <li class="nav-item">
           <a routerLink="/login" class="nav-link" (click)="logout()">Logout</a>
         </li>

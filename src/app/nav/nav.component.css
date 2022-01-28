@@ -1,0 +1,12 @@
+.dsp{display: flex;
+    flex-direction: row;
+align-items:center ;
+
+
+}
+
+.select-lang{
+    background-color: yellow;
+    border-radius: 999px;
+  
+}

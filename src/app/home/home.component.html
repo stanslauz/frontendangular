@@ -1,1 +1,14 @@
-{{message}}
+<main>
+    <div *ngIf="!authenticated">
+        {{message}}
+    </div>
+    
+    <div class="side"   *ngIf="authenticated">
+    
+    <app-sidenav></app-sidenav>
+    
+    </div>
+    
+
+</main>
+
